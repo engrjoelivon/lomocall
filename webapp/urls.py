@@ -4,4 +4,4 @@ from django.views.generic import TemplateView
 
 
 
-urlpatterns=[url(r'^$',TemplateView.as_view(template_name="webapp/index.html"),name="index"),]
+urlpatterns=[url(r'^$',TemplateView.as_view(template_name="webapp/index_new.html"),name="index"),]
