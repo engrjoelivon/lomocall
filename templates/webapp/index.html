@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href=" {% static 'webapp/css/lomocal.css' %}">
+    </head>
+    <body>
+        <!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+        <img src="{% static 'webapp/img/lomoLogo.png' %}" class="img" width="70" height="70">
+    </div>
+      
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Add Credits</a></li>
+          <li><a href="#">Download</a></li>
+          
+          <li class="signup"><a href="#">Signup</a></li>
+        <li class="login"><a href="#">Login</a></li>
+          
+      </ul>
+        
+        
+    </div>
+      
+      
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="cheap">Cheap International Calls...</h3>
+  
+  <h3 class="down">Download now and get free Talktime!</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+    <p id="para">Liberate international calling</p>
+  
+  
+  <div class="row">
+      <h3 class="margin">How does Lomo Call work?</h3>
+      <div class="col-sm-4"><img src="{% static 'webapp/img/lomocal4.png' %}" class="img2"></div>
+    <div class="col-sm-8">We have found a way to make international calling simple, reliable and cheap based on your unique calling behavior. </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-4">
+       
+        <h2 class="h2">Highest quality calls</h2>
+      <p class="p2">Lomo calls do not use the internet. They use the same reliable phone circuits that you use for regular phone calls.881.</p>
+      
+    </div>
+    <div class="col-sm-4"> 
+        
+        <h2 class="h2">No internet required</h2>
+      <p class="p2">Lomo calls do not require the internet connectivity. So you can make international calls for a low cost from anywhere. You do not need expensive data plans.</p>
+      
+    </div>
+    <div class="col-sm-4"> 
+       
+        <h2 class="h2">Save Money</h2>
+      <p class="p2">Lomo prices are 30% lower than most competing international calling apps. Talk for hours without worrying about prices.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+Copyright 2017 Lomo.  
+</footer>
+
+    </body>
+</html>

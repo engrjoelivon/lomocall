@@ -1,0 +1,98 @@
+
+
+body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: white;
+      font-size: 30px;
+      font-family: serif;
+  }
+  
+  
+  
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  
+  
+  .bg-1 { 
+      background: url("../img/indexbig.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter:contrast(100%);
+    
+    
+    
+    
+   
+  }
+  
+  
+  .bg-2 { 
+      background-color: white; 
+      color: black;
+  }
+  
+  
+  .bg-3 { 
+      background-color: #ffffff; 
+      color: #555555;
+  }
+  
+  
+  .bg-4 { 
+      background-color: black /*#2f2f2f*/; 
+      color: red;
+      font-size: 35px;
+      
+  }
+  
+  .container-fluid {
+      padding-top: 300px;
+      padding-bottom: 300px;
+      max-width: 100%;
+  }
+  
+  /*This is the position of the navbar position*/
+  .navbar { 
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 27px;
+      
+      
+  }
+  
+  
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  
+  #para{
+      color: red;
+      font-size: 30px;
+      text-align: center;
+      
+     
+  }
+  img{
+      font-size: 500px;
+  }
+  
+  .cheap{
+      font-size: 100px;
+  }
+  
+  .down{
+      font-size:50px;
+  }
+  .h2{
+      text-align: center;
+      color: #1abc9c;
+  }
+  .p2{
+      font-size: 25px;
+  }
