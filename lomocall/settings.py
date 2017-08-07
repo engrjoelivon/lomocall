@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+     'webapp',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'lomocall.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,4 +125,3 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = u'/home/Lomocall/lomocall/media'
 MEDIA_URL = '/media/'
 STATIC_ROOT = u'/home/Lomocall/lomocall/static'
-STATIC_URL = '/static/'
